@@ -10,11 +10,11 @@
 <body>
 <form method = "post" action = "editShoppingListServlet">
 <table>
-<c:forEach items="${requestScope.allItems}" var="item">
+<c:forEach items="${requestScope.allItems}" var="currentitem">
 <tr>
-   <td><input type="radio" name="id" value="${item.id}"></td>
-   <td>${item.store}</td>
-   <td>${item.item}</td>
+   <td><input type="radio" name="id" value="${currentitem.id}"></td>
+   <td>${currentitem.store}</td>
+   <td>${currentitem.item}</td>
    </tr>
 </c:forEach>
 </table>
