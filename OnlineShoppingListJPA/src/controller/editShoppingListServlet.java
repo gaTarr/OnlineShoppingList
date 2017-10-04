@@ -58,6 +58,8 @@ public class editShoppingListServlet extends HttpServlet {
 			request.setAttribute("itemToEdit", itemToEdit);
 			getServletContext().getRequestDispatcher("/edit-item.jsp").forward(request, response);
 
+		} else if (act.equals("Add New Item")) {
+			getServletContext().getRequestDispatcher("/addItem.html").forward(request, response);
 		}
 
 	}

@@ -20,6 +20,7 @@
 </table>
 <input type = "submit" value = "Edit Selected Item" name="doThisToItem">
 <input type = "submit" value = "Delete Selected Item" name="doThisToItem">
+<input type="submit" value = "Add New Item" name = "doThisToItem">
 </form>
 
 
